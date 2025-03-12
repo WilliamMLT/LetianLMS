@@ -1,0 +1,47 @@
+Software Requirements Specification (SRS)
+
+1. Introduction
+This document outlines the functional and non-functional requirements for the Library Management System (LMS).
+
+2. Functional Requirements
+2.1 User Registration & Authentication
+●	FR1: Users can register as member with a username, email, and password
+●	FR2: Registered users can renew membership before expiry
+●	FR3: Registered users can reset password
+●	FR4: Registered users can log in to access the system. 
+●	FR5: Admin can register users as librarian or member roles
+●	FR6: Admin can create, update, delete users
+●	FR7: Admin can search for members by name or ID
+
+2.2 Book Search
+●	FR8: Users can search for books by title, author, or ISBN
+●	FR9: The system displays a list of matching books
+
+2.3 Borrowing & Returning Books
+●	FR10: Users can borrow available books
+●	FR11: Users can return borrowed books
+●	FR12: The system updates the status of books accordingly.
+●	FR13: Users can view borrowing history
+●	FR14: Users can check due date of borrowed books
+
+2.4 Book Management Functions
+●	FR15: Administrators can add new books
+●	FR16: Administrators can update or delete existing books
+●	FR17: Admin can search for books title, author, genre, or ISBN
+●	FR18: Admin can track the status of books (available, borrowed, reserved, overdue)
+
+2.5 Overdue Notifications
+●	FR19: The system flags overdue books automatically
+●	FR20: Users are notified of overdue books 
+●	FR21: The system calculates fines for overdue books based on predefined policies
+
+3. Non-Functional Requirements
+●	NFR1: The system should respond within 3 seconds for any user action
+●	NFR2: The UI must be intuitive, user-friendly and accessible
+●	NFR3: The system should support up to 100 concurrent users without performance issues
+
+4. System Constraints
+●	Backend: Built on Spring Boot with Maven
+●	Database: Uses MySQL 8+ for data storage
+●	Frontend: Built with React 18 for an interactive UI
+●	Version control: Managed with Git
