@@ -1,0 +1,27 @@
+Business Requirements Document (BRD)
+
+Project Overview 
+The Library Management System is a user-friendly, web-based platform designed to streamline library operations. The system allows users to search for books, borrow and return them, track their borrowing history, and receive overdue notifications. Librarians and administrators can manage book inventory and user accounts, ensuring efficient library operations. 
+
+Objectives 
+●	Enable users to register, log in, and search for books
+●	Allow users to borrow and return books
+●	Provide users with access to their borrowing history
+●	Send automated notifications for overdue books
+●	Provide administrative functions for managing books and members (create, update, delete), configure borrowing polices (loan periods, renewal limits), and oversee due-date notifications and overdue penalties
+
+Stakeholders 
+●	End Users: Library members who want to search, borrow, and return books 
+●	Administrators: Manage books, members and borrowing policies 
+●	Higher management: View reports and analytics functionalities (future enhancement)
+●	IT support: Build, maintain, and enhance the system 
+
+Scope 
+●	In Scope: User authentication (registration, login, role-based access), book search, borrowing and returning books, admin book management, due-date and overdue notifications, and policy configuration  
+●	Out of Scope: Advanced features such as multi-branch management, reservation systems, integration with third-party APIs and reports /statistics. 
+
+Assumptions & Constraints 
+●	The target user is school libraries
+●	The project is for educational purposes 
+●	The implementation uses MySQL 8+, Spring Boot, React 18, Git for version control
+●	Data security is simplified for learning purposes 
